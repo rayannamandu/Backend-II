@@ -15,8 +15,6 @@ public class VerificarNumeroPrimo {
         }
         scanner.close();
     }
-
-    // Método para verificar se o número é primo
     public static boolean isPrimo(int numero) {
         if (numero <= 1) {
             return false;

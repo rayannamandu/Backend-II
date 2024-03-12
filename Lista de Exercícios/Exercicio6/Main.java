@@ -15,13 +15,13 @@ public class Main {
                 break;
             }
 
-            System.out.println("Digite a 1ª nota: ");
+            System.out.println("Digite a 1ª nota do aluno: ");
             int nota1 = Integer.parseInt(scanner.nextLine());
 
-            System.out.println("Digite a 2ª nota: ");
+            System.out.println("Digite a 2ª nota do aluno: ");
             int nota2 = Integer.parseInt(scanner.nextLine());
 
-            System.out.println("Digite a 3ª nota: ");
+            System.out.println("Digite a 3ª nota do aluno: ");
             int nota3 = Integer.parseInt(scanner.nextLine());
 
             Aluno aluno = new Aluno(nome, nota1, nota2, nota3);
@@ -33,7 +33,7 @@ public class Main {
         int aprovados = 0;
         int reprovados = 0;
 
-        System.out.println("Notas dos alunos:");
+        System.out.println("Médias dos alunos:");
         for (Aluno aluno : alunos) {
             System.out.println(aluno.getNome() + ": " + aluno.calcularMedia());
             somaMedias += aluno.calcularMedia();

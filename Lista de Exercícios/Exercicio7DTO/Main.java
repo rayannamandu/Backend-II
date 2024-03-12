@@ -7,15 +7,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Cadastro de Cliente");
-        System.out.println("Informe o nome do cliente:");
+        System.out.println("Informe o nome do cliente: ");
         String nomeCliente = scanner.nextLine();
-        System.out.println("Informe o CPF do cliente:");
+        System.out.println("Informe o CPF do cliente: ");
         String cpfCliente = scanner.nextLine();
-        System.out.println("Informe o endereço do cliente:");
+        System.out.println("Informe o endereço do cliente: ");
         String enderecoCliente = scanner.nextLine();
-        System.out.println("Informe a data de nascimento do cliente:");
+        System.out.println("Informe a data de nascimento do cliente: ");
         String dataNascimentoCliente = scanner.nextLine();
-        System.out.println("Informe o telefone do cliente:");
+        System.out.println("Informe o telefone do cliente: ");
         String telefoneCliente = scanner.nextLine();
 
         Cliente cliente = new Cliente(nomeCliente, cpfCliente, enderecoCliente, dataNascimentoCliente, telefoneCliente);
